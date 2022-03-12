@@ -1,0 +1,26 @@
+{
+    "name": "unsung",
+    "version": "1.0.0",
+    "description": "Unsung Is An Anonymous Social Network",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "nodemon": "nodemon app.js"
+    },
+    "keywords": [
+        "Social",
+        "Network",
+        "Anonymous",
+        "Unsung"
+    ],
+    "author": "Husnul Jahneer",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "csurf": "^1.11.0",
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15"
+    }
+}
